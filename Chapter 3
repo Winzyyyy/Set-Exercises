@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nature & Building Landscapes Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
+    .image-container {
+      margin-bottom: 40px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      filter: brightness(0.9) contrast(1.1) saturate(1.2);
+      transition: 0.3s ease;
+    }
+    img:hover {
+      filter: brightness(1) contrast(1.2) saturate(1.3);
+    }
+    .copyright {
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Nature & Building Landscapes</h1>
+
+  <div class="image-container">
+    <img 
+      src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=70"
+      alt="Mountain landscape at sunset"
+      width="800"
+      height="533"
+      title="Peaceful Mountain Sunset"
+    />
+    <div class="copyright">
+      Photo by <a href="https://unsplash.com/@eberhardgross" target="_blank">Eberhard Grossgasteiger</a> on Unsplash (Free for commercial use, no attribution required)
+    </div>
+  </div>
+
+  <div class="image-container">
+    <img 
+      src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=70"
+      alt="Ocean waves crashing on beach"
+      width="800"
+      height="533"
+      title="Ocean Waves"
+    />
+    <div class="copyright">
+      Photo by <a href="https://unsplash.com/@seefromthesky" target="_blank">Mohamed Nohassi</a> on Unsplash (Free for commercial use, no attribution required)
+    </div>
+  </div>
+
+  <div class="image-container">
+    <img 
+      src="https://images.unsplash.com/photo-1748383718257-f92ee93eac10?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt="Building"
+      width="800"
+      height="533"
+      title="Tbilisi, Georgia"
+    />
+    <div class="copyright">
+      Photo by <a href="https://unsplash.com/@artyshena" target="_blank">Aleksandr Artiushenko</a> on Unsplash (Free for commercial use, no attribution required)
+    </div>
+  </div>
+
+</body>
+</html>
