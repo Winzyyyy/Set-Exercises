@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Centered Video Example</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #000;
+    }
+    video {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <video 
+    src="sample-video.mp4" 
+    poster="poster.jpg" 
+    loop 
+    autoplay 
+    muted 
+    playsinline
+    controls>
+    Your browser does not support the video tag.
+  </video>
+
+</body>
+</html>
